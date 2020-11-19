@@ -9870,7 +9870,9 @@ textarea.form-control {
       bottom: 25px;
       width: 50px;
       z-index: 1000;
+      transform: scaleX(-1);
       display: none;
+
     }
     .app-whatsapp{
       display: block;
