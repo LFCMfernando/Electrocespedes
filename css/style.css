@@ -8723,6 +8723,7 @@ h1, h2, h3, h4, h5,
     color: #e8740C; }
   .tabulation-2 .nav-pills .nav-item .nav-link.active {
     color: #fff;
+    
     background: #e8740C;
     border: 1px solid #e8740C; }
     .tabulation-2 .nav-pills .nav-item .nav-link.active span {
