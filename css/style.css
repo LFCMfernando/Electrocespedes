@@ -57,7 +57,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: rgb(255, 255, 255); }
+  background-color: #fff; }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -8365,8 +8365,8 @@ h1, h2, h3, h4, h5,
           letter-spacing: 2px;
           font-family: "Poppins", Arial, sans-serif;
           font-weight: 700;
-          color: #fdbe34;
-          /*color: #001085;*/
+          /*color: #fdbe34;*/
+          color: #001085;
           display: inline-block;
           position: relative;
           letter-spacing: 4px; }
@@ -8720,10 +8720,9 @@ h1, h2, h3, h4, h5,
   font-weight: 600;
   border: 1px solid rgba(0, 0, 0, 0.1); }
   .tabulation-2 .nav-pills .nav-item .nav-link span {
-    color: #e8740C; }
+    color:#e8740C; }
   .tabulation-2 .nav-pills .nav-item .nav-link.active {
     color: #fff;
-    
     background: #e8740C;
     border: 1px solid #e8740C; }
     .tabulation-2 .nav-pills .nav-item .nav-link.active span {
@@ -8737,6 +8736,8 @@ h1, h2, h3, h4, h5,
 #section-counter {
   position: relative;
   z-index: 0;
+  margin: 4em;
+    margin-bottom: 2em;
   background: #499107; }
   #section-counter:after {
     position: absolute;
@@ -9067,7 +9068,8 @@ textarea.form-control {
   padding-top: 0 !important; }
 
 .ftco-no-pb {
-  padding-bottom: 0 !important; }
+  padding-bottom: 0 !important;
+  margin-bottom: 2em; }
 
 .footer {
   padding: 0;
@@ -9873,7 +9875,6 @@ textarea.form-control {
       z-index: 1000;
       transform: scaleX(-1);
       display: none;
-
     }
     .app-whatsapp{
       display: block;
@@ -9886,4 +9887,13 @@ textarea.form-control {
     }
     .app-messenger i{
       color: #0084ff;	
+    }
+    .rowimg{
+      margin: 1em;	
+    }
+    .colornew{
+      color: rgb(255, 255, 255);
+      background: #001085;	
+      margin: 1em;	
+
     }
