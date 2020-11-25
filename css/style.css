@@ -8114,7 +8114,9 @@ h1, h2, h3, h4, h5,
         background: none;
         border-radius: 4px; } }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #000000; }
+    color: #000000;
+    background: #E8740C;
+   }
     .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
       /*visibility: visible;*/
       background-color: #E8740C;
