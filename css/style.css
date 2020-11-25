@@ -8116,7 +8116,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
     color: #000000; }
     .ftco-navbar-light .navbar-nav > .nav-item.active > a:before {
-      visibility: visible;
+      /*visibility: visible;*/
       background-color: #E8740C;
       -webkit-transform: scaleX(1);
       -ms-transform: scaleX(1);
