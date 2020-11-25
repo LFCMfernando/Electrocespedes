@@ -1,3 +1,13 @@
+
+<?php
+$get_idcategoria = 0;
+if(!empty($_GET['id_categoria'])){
+$get_idcategoria = (int)$_GET['id_categoria'];
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -42,7 +52,7 @@
     <div class="container pt-5">
 			<div class="row justify-content-between">
 				<div class="col">
-					<a class="navbar-brand" href="//electrocespedes.com/web/index.html"><img src="//electrocespedes.com/web/img/logo.png" style="width: auto; height: 3em;"></a>
+					<a class="navbar-brand" href="//electrocespedes.com/web/index.php"><img src="//electrocespedes.com/web/img/logo.png" style="width: auto; height: 3em;"></a>
 				</div>
 				<div class="col d-flex justify-content-end">
 					<div class="social-media">
@@ -70,25 +80,25 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-				<li class="nav-item"><a href="//electrocespedes.com/web/index.html" class="nav-link">Inicio</a></li>
-	        	<li class="nav-item"><a href="//electrocespedes.com/web/about.html" class="nav-link">Nosotros</a></li>
-	        	<li class="nav-item"><a href="//electrocespedes.com/web/team.html" class="nav-link">Nuestro equipo</a></li>
-				<li class="nav-item"><a href="//electrocespedes.com/web/project.html" class="nav-link">Tienda</a></li>
-				<li class="nav-item active"><a href="//electrocespedes.com/web/servicios.html" class="nav-link">Servicios</a></li>
-	        	<li class="nav-item"><a href="//electrocespedes.com/web/blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="//electrocespedes.com/web/contact.html" class="nav-link">Contacto</a></li>
+				<li class="nav-item"><a href="//electrocespedes.com/web/index.php" class="nav-link">Inicio</a></li>
+	        	<li class="nav-item"><a href="//electrocespedes.com/web/about.php" class="nav-link">Nosotros</a></li>
+	        	<li class="nav-item"><a href="//electrocespedes.com/web/team.php" class="nav-link">Nuestro equipo</a></li>
+				<li class="nav-item"><a href="//electrocespedes.com/web/project.php" class="nav-link">Tienda</a></li>
+				<li class="nav-item active"><a href="//electrocespedes.com/web/servicios.php" class="nav-link">Servicios</a></li>
+	        	<li class="nav-item"><a href="//electrocespedes.com/web/blog.php" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="//electrocespedes.com/web/contact.php" class="nav-link">Contacto</a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('//electrocespedes.com/web/images/bg_3.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end">
           <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="//electrocespedes.com/web/index.html">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Servicios <i class="ion-ios-arrow-forward"></i></span></p>
+          	<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.php">Inicio <i class="ion-ios-arrow-forward"></i></a></span> <span>Servicios <i class="ion-ios-arrow-forward"></i></span></p>
             <h1 class="mb-0 bread">Servicios</h1>
           </div>
         </div>
@@ -118,123 +128,126 @@
     	</div>
     </section>
 	<br><br>
-	<section class="ftco-section ftco-no-pt ftco-no-pb">
+	<section class="ftco-section ftco-no-pt ftco-no-pb" style="<?php if($get_idcategoria != 0){?> display:none; <?php } ?>">
     	<div class="container">
     		<div class="row">
         </div>
     		<div class="row no-gutters">
     			<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-		
+						<div class="work img" onclick="location.href='servicios.php?id_categoria=1'"  style="background-image: url(//electrocespedes.com/web/images/work-1.jpg);">
 						</div>
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 							  <!--<span>Building</span>-->
-							  <h3><a href="//electrocespedes.com/web/work-single.html">Texto de la categoria</a></h3>
+							  <h3><a  href='servicios.php?id_categoria=1'">Texto de la categoria</a></h3>
 							</div>
 						</div>
 	    			</div>
     			</div>
     			<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-	    			    <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-					
+						<div class="work img" onclick="location.href='servicios.php?id_categoria=2'"  style="background-image: url(//electrocespedes.com/web/images/work-2.jpg);">
 						</div>
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
-								 <!--<span>Building</span>-->
-								 <h3><a href="//electrocespedes.com/web/work-single.html">Texto de la categoria</a></h3>
+							  <!--<span>Building</span>-->
+							  <h3><a  href='servicios.php?id_categoria=2'">Texto de la categoria</a></h3>
 							</div>
 						</div>
-	      		</div>
+	    			</div>
     			</div>
-    			<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
+				<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
+						<div class="work img" onclick="location.href='servicios.php?id_categoria=3'"  style="background-image: url(//electrocespedes.com/web/images/work-3.jpg);">
+						</div>
+						<div class="desc w-100 px-4">
+							<div class="text w-100 mb-3">
+							  <!--<span>Building</span>-->
+							  <h3><a  href='servicios.php?id_categoria=3'">Texto de la categoria</a></h3>
+							</div>
+						</div>
+	    			</div>
+    			</div>
+				<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
+    				<div class="py-3">
+						<div class="work img" onclick="location.href='servicios.php?id_categoria=4'"  style="background-image: url(//electrocespedes.com/web/images/work-4.jpg);">
+						</div>
+						<div class="desc w-100 px-4">
+							<div class="text w-100 mb-3">
+							  <!--<span>Building</span>-->
+							  <h3><a  href='servicios.php?id_categoria=4'">Texto de la categoria</a></h3>
+							</div>
+						</div>
+	    			</div>
+    			</div>
+				<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
+    				<div class="py-3">
+						<div class="work img" onclick="location.href='servicios.php?id_categoria=5'"  style="background-image: url(//electrocespedes.com/web/images/work-5.jpg);">
+						</div>
+						<div class="desc w-100 px-4">
+							<div class="text w-100 mb-3">
+							  <!--<span>Building</span>-->
+							  <h3><a  href='servicios.php?id_categoria=5'">Texto de la categoria</a></h3>
+							</div>
+						</div>
+	    			</div>
+				</div>
+				<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
+    				<div class="py-3">
+						<div class="work img" onclick="location.href='servicios.php?id_categoria=6'"  style="background-image: url(//electrocespedes.com/web/images/work-6.jpg);">
+						</div>
+						<div class="desc w-100 px-4">
+							<div class="text w-100 mb-3">
+							  <!--<span>Building</span>-->
+							  <h3><a  href='servicios.php?id_categoria=6'">Texto de la categoria</a></h3>
+							</div>
+						</div>
+	    			</div>
+    			</div>
 				
-						</div>
-						<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								 <!--<span>Building</span>-->
-								 <h3><a href="//electrocespedes.com/web/work-single.html">Texto de la categoria</a></h3>
-							</div>
-						</div>
-	      		</div>
-				</div>
-				<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
-    				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-	
-						</div>
-						<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-							 <!--<span>Building</span>-->
-							 <h3><a href="//electrocespedes.com/web/work-single.html">Texto de la categoria</a></h3>
-							</div>
-						</div>
-					
-	      		</div>
-				</div>
-				<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
-    				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-	
-						</div>
-						<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-							 <!--<span>Building</span>-->
-							 <h3><a href="//electrocespedes.com/web/work-single.html">Texto de la categoria</a></h3>
-							</div>
-						</div>
-					
-	      		</div>
-				</div>
-				<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
-    				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
-										<span class="icon-expand"></span>
-									</a>
-	
-						</div>
-						<div class="desc w-100 px-4">
-							<div class="text w-100 mb-3">
-								 <!--<span>Building</span>-->
-								<h3><a href="//electrocespedes.com/web/work-single.html">Texto de la categoria</a></h3>
-							</div>
-						</div>
-					
-	      		</div>
-				</div>
-    		</div>
+			</div>
+			
     	</div>
 	</section>
 	
-	<section class="ftco-section ftco-no-pt ftco-no-pb" style="display: none;">
-    	<div class="container">
-			<h1 class="mb-4 rowimg">Nombre de la categorias</h1>
-    		<div class="row">
+<?php
 
+if(!empty($_GET['id_categoria'])){
+	if ($get_idcategoria == 1 ){
+		$n_categoria = 'Nombre de la categorias 1';
+		$img= 'background-image:url(//electrocespedes.com/web/images/work-1.jpg);';
+	}
+	else if ($get_idcategoria == 2 ){
+		$n_categoria = 'Nombre de la categorias 2';
+		$img= 'background-image:url(//electrocespedes.com/web/images/work-2.jpg);';
+	}
+	else if ($get_idcategoria == 3 ){
+		$n_categoria = 'Nombre de la categorias 3';
+		$img= 'background-image:url(//electrocespedes.com/web/images/work-3.jpg);';
+	}
+	else if ($get_idcategoria == 4 ){
+		$n_categoria = 'Nombre de la categorias 4';
+		$img= 'background-image:url(//electrocespedes.com/web/images/work-4.jpg);';
+	}
+	else if ($get_idcategoria == 5 ){
+		$n_categoria = 'Nombre de la categorias 5';
+		$img= 'background-image:url(//electrocespedes.com/web/images/work-5.jpg);';
+	}
+	else if ($get_idcategoria == 6 ){
+		$n_categoria = 'Nombre de la categorias 6';
+		$img= 'background-image:url(//electrocespedes.com/web/images/work-6.jpg);';
+	}
+
+?>
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<div class="container">
+			<h1 class="mb-4 rowimg"><?php echo $n_categoria; ?></h1>
+    		<div class="row">
 		<div class="col-md-4">
 			<div class="py-3">
 			<div class="row rowimg">
-				<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);"></div>
+				<div class="work img d-flex align-items-end" style= <?php echo $img;?>></div>
 		</div>
 		<div class="row rowimg">
 			<dl>
@@ -242,14 +255,12 @@
 				<dd>1</dd>
 				<dd>2</dd>
 				<dd>3</dd>
-				<dd>4</dd>
-			
+				<dd>4</dd>			
 			  </dl>
 		  </div>
 		  <div class="row">
 			<h2 class="colornew" >Obtenlo llamando
 				al 2546885656</h2>
-	
 		  </div>
 	</div>	</div>
 	<div class="col-md-8">
@@ -269,6 +280,9 @@
 	  </div>
 	</div>
 </section>
+<?php
+}
+?>
 <!--
     <section class="ftco-section testimony-section bg-primary">
       <div class="container">
