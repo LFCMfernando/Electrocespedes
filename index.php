@@ -1,7 +1,12 @@
+<?php
+require_once "rutas.php";
+$url= Ruta::ctrRuta();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home Builder - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Home Builder5 - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -9,39 +14,39 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
  
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/animate.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/animate.css">
     
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/magnific-popup.css">
 
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/ionicons.min.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/ionicons.min.css">
     
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/flaticon.css">
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/icomoon.css">
-    <link rel="stylesheet" href="//electrocespedes.com/web/css/style.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/flaticon.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/icomoon.css">
+    <link rel="stylesheet" href="<?php echo $url; ?>css/style.css">
     
     <!-- ICONO LOGO -->
-<link rel="apple-touch-icon" sizes="57x57" href="//electrocespedes.com/web/icono/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="//electrocespedes.com/web/icono/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="//electrocespedes.com/web/icono/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="//electrocespedes.com/web/icono/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="//electrocespedes.com/web/icono/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="//electrocespedes.com/web/icono/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="//electrocespedes.com/web/icono/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="//electrocespedes.com/web/icono/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="//electrocespedes.com/web/icono/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="//electrocespedes.com/web/icono/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//electrocespedes.com/web/icono/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="//electrocespedes.com/web/icono/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="//electrocespedes.com/web/icono/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="57x57" href="<?php echo $url; ?>icono/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="<?php echo $url; ?>icono/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="<?php echo $url; ?>icono/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="<?php echo $url; ?>icono/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="<?php echo $url; ?>icono/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="<?php echo $url; ?>icono/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="<?php echo $url; ?>icono/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="<?php echo $url; ?>icono/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo $url; ?>icono/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="<?php echo $url; ?>icono/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo $url; ?>icono/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="<?php echo $url; ?>icono/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo $url; ?>icono/favicon-16x16.png">
   </head>
   <body>
 
     <div class="container pt-5">
 			<div class="row justify-content-between">
 				<div class="col">
-<a class="navbar-brand" href="//electrocespedes.com/web/index.php"><img src="//electrocespedes.com/web/img/logo.png" style="width: auto; height: 3em;"></a>
+<a class="navbar-brand" href="<?php echo $url; ?>index.php"><img src="img/logo.png" style="width: auto; height: 3em;"></a>
 				</div>
 				<div class="col d-flex justify-content-end">
 					<div class="social-media">
@@ -69,13 +74,13 @@
         </form>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav mr-auto">
-	        	<li class="nav-item active"><a href="//electrocespedes.com/web/index.php" class="nav-link">Inicio</a></li>
-	        	<li class="nav-item"><a href="//electrocespedes.com/web/about.php" class="nav-link">Nosotros</a></li>
-	        	<li class="nav-item"><a href="//electrocespedes.com/web/team.php" class="nav-link">Nuestro equipo</a></li>
-				<li class="nav-item"><a href="//electrocespedes.com/web/project.php" class="nav-link">Tienda</a></li>
-				<li class="nav-item"><a href="//electrocespedes.com/web/servicios.php" class="nav-link">Servicios</a></li>
-	        	<li class="nav-item"><a href="//electrocespedes.com/web/blog.php" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="//electrocespedes.com/web/contact.php" class="nav-link">Contacto</a></li>
+	        	<li class="nav-item active"><a href="<?php echo $url; ?>index.php" class="nav-link">Inicioo</a></li>
+	        	<li class="nav-item"><a href="<?php echo $url; ?>about.php" class="nav-link">Nosotros</a></li>
+	        	<li class="nav-item"><a href="<?php echo $url; ?>team.php" class="nav-link">Nuestro equipo</a></li>
+				<li class="nav-item"><a href="<?php echo $url; ?>project.php" class="nav-link">Tienda</a></li>
+				<li class="nav-item"><a href="<?php echo $url; ?>servicios.php" class="nav-link">Servicios</a></li>
+	        	<li class="nav-item"><a href="<?php echo $url; ?>blog.php" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="<?php echo $url; ?>contact.php" class="nav-link">Contacto</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -239,7 +244,7 @@
     	<div class="container">
     		<div class="row d-flex no-gutters">
     			<div class="col-md-6 d-flex">
-    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(img/logo-C.png);">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(<?php echo $url; ?>img/logo-C.png);">
     					
     				</div>
     			</div>
@@ -316,8 +321,8 @@
     		<div class="row no-gutters">
     			<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+						<div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>images/work-1.jpg);">
+							<a href="<?php echo $url; ?>images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
 		
@@ -325,15 +330,15 @@
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 							  <!--<span>Building</span>-->
-							  <h3><a href="//electrocespedes.com/web/work-single.php">Texto de la categoria</a></h3>
+							  <h3><a href="<?php echo $url; ?>work-single.php">Texto de la categoria</a></h3>
 							</div>
 						</div>
 	    			</div>
     			</div>
     			<div class="col-md-12 col-lg-4  p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-	    			    <div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+	    			    <div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>images/work-1.jpg);">
+							<a href="<?php echo $url; ?>images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
 					
@@ -341,15 +346,15 @@
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 								 <!--<span>Building</span>-->
-								 <h3><a href="//electrocespedes.com/web/work-single.php">Texto de la categoria</a></h3>
+								 <h3><a href="<?php echo $url; ?>work-single.php">Texto de la categoria</a></h3>
 							</div>
 						</div>
 	      		</div>
     			</div>
     			<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+						<div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>images/work-1.jpg);">
+							<a href="<?php echo $url; ?>images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
 				
@@ -357,15 +362,15 @@
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 								 <!--<span>Building</span>-->
-								 <h3><a href="//electrocespedes.com/web/work-single.php">Texto de la categoria</a></h3>
+								 <h3><a href="<?php echo $url; ?>work-single.php">Texto de la categoria</a></h3>
 							</div>
 						</div>
 	      		</div>
 				</div>
 				<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+						<div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>images/work-1.jpg);">
+							<a href="<?php echo $url; ?>images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
 	
@@ -373,7 +378,7 @@
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 							 <!--<span>Building</span>-->
-							 <h3><a href="//electrocespedes.com/web/work-single.php">Texto de la categoria</a></h3>
+							 <h3><a href="<?php echo $url; ?>work-single.php">Texto de la categoria</a></h3>
 							</div>
 						</div>
 					
@@ -381,8 +386,8 @@
 				</div>
 				<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+						<div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>images/work-1.jpg);">
+							<a href="<?php echo $url; ?>images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
 	
@@ -390,7 +395,7 @@
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 							 <!--<span>Building</span>-->
-							 <h3><a href="//electrocespedes.com/web/work-single.php">Texto de la categoria</a></h3>
+							 <h3><a href="<?php echo $url; ?>work-single.php">Texto de la categoria</a></h3>
 							</div>
 						</div>
 					
@@ -398,8 +403,8 @@
 				</div>
 				<div class="col-md-12 col-lg-4 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3">
-						<div class="work img d-flex align-items-end" style="background-image: url(images/work-1.jpg);">
-							<a href="//electrocespedes.com/web/images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
+						<div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>images/work-1.jpg);">
+							<a href="<?php echo $url; ?>images/work-1.jpg" class="icon image-popup d-flex justify-content-center align-items-center">
 										<span class="icon-expand"></span>
 									</a>
 	
@@ -407,7 +412,7 @@
 						<div class="desc w-100 px-4">
 							<div class="text w-100 mb-3">
 								 <!--<span>Building</span>-->
-								<h3><a href="//electrocespedes.com/web/work-single.php">Texto de la categoria</a></h3>
+								<h3><a href="<?php echo $url; ?>work-single.php">Texto de la categoria</a></h3>
 							</div>
 						</div>
 					
@@ -689,26 +694,26 @@
     
   
 		<a id="app-whatsapp" class="app-whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=999999999&amp;text=Hola!&nbsp;me&nbsp;pueden&nbsp;ayudar?">
-			<img src="//electrocespedes.com/web/img/whatsapp.png" alt="whatsapp" >
+			<img src="img/whatsapp.png" alt="whatsapp" >
 		</a>
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
-  <script src="//electrocespedes.com/web/js/jquery.min.js"></script>
-  <script src="//electrocespedes.com/web/js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="//electrocespedes.com/web/js/popper.min.js"></script>
-  <script src="//electrocespedes.com/web/js/bootstrap.min.js"></script>
-  <script src="//electrocespedes.com/web/js/jquery.easing.1.3.js"></script>
-  <script src="//electrocespedes.com/web/js/jquery.waypoints.min.js"></script>
-  <script src="//electrocespedes.com/web/js/jquery.stellar.min.js"></script>
-  <script src="//electrocespedes.com/web/js/jquery.animateNumber.min.js"></script>
-  <script src="//electrocespedes.com/web/js/owl.carousel.min.js"></script>
-  <script src="//electrocespedes.com/web/js/jquery.magnific-popup.min.js"></script>
-  <script src="//electrocespedes.com/web/js/scrollax.min.js"></script>
+  <script src="<?php echo $url; ?>js/jquery.min.js"></script>
+  <script src="<?php echo $url; ?>js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="<?php echo $url; ?>js/popper.min.js"></script>
+  <script src="<?php echo $url; ?>js/bootstrap.min.js"></script>
+  <script src="<?php echo $url; ?>js/jquery.easing.1.3.js"></script>
+  <script src="<?php echo $url; ?>js/jquery.waypoints.min.js"></script>
+  <script src="<?php echo $url; ?>js/jquery.stellar.min.js"></script>
+  <script src="<?php echo $url; ?>js/jquery.animateNumber.min.js"></script>
+  <script src="<?php echo $url; ?>js/owl.carousel.min.js"></script>
+  <script src="<?php echo $url; ?>js/jquery.magnific-popup.min.js"></script>
+  <script src="<?php echo $url; ?>js/scrollax.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
- <script src="//electrocespedes.com/web/js/google-map.js"></script>
-  <script src="//electrocespedes.com/web/js/main.js"></script>
+ <script src="<?php echo $url; ?>js/google-map.js"></script>
+  <script src="<?php echo $url; ?>js/main.js"></script>
     
   </body>
 </html>

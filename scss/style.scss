@@ -7,7 +7,7 @@ $white: #fff;
 $black: #000000;
 $darken: #00043c;
 
-$primary: #fdbe34;
+$primary: #ff0b0b;
 
 
 
@@ -15,7 +15,8 @@ $primary: #fdbe34;
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
       -ms-border-radius: $radius;
-          border-radius: $radius;
+		  border-radius: $radius;
+		  //holaaaaa
 }
 
 @mixin transition($transition) {
@@ -28,6 +29,7 @@ $primary: #fdbe34;
 
 html {
 	// overflow-x: hidden;
+	//Holaaaaaaaaaaaaaaaaaaa
 }
 body {
 	font-family: $font-primary;
