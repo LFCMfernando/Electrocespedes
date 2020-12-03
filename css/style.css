@@ -9900,9 +9900,10 @@ textarea.form-control {
 
     }
     .imgg {
-      width: 80px;
-      height: 80px;
+      width: 75px;
+      height: 75px;
       margin-top: -5px;
+      margin-left: 3px;
     }
     
     .img2 {
