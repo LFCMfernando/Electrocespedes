@@ -9899,3 +9899,14 @@ textarea.form-control {
       margin: 1em;	
 
     }
+    .imgg {
+      width: 80px;
+      height: 80px;
+      margin-top: -5px;
+    }
+    
+    .img2 {
+      width: 80px;
+      height: 80px;
+      margin-left: -10px;
+    }

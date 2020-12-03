@@ -140,7 +140,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-hook"></span>
+			  <img src="<?php echo $url; ?>img/cinco.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Stock</h3>
@@ -153,7 +153,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-skyline"></span>
+			  <img src="<?php echo $url; ?>img/cuatro.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Atención Empática</h3>
@@ -166,7 +166,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-stairs"></span>
+			  <img src="<?php echo $url; ?>img/uno.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Servicio Electro-mecánico</h3>
@@ -178,7 +178,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-            		<span class="flaticon-home"></span>
+			  <img src="<?php echo $url; ?>img/tres.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading"> Delivery</h3>
@@ -223,7 +223,7 @@ $url= Ruta::ctrRuta();
     			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3 d-flex">
 	    				<div class="icon">
-	    					<span class="flaticon-engineer-2"></span>
+						<img src="<?php echo $url; ?>img/dos.png" class="img2">
 	    				</div>
 	    				<div class="text">
 	      				<h3>24/7 Alquiler </h3>
