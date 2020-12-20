@@ -88,7 +88,7 @@ $url= Ruta::ctrRuta();
     <!-- END nav -->
     <div class="hero-wrap">
 	    <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image:url(images/bg_1.jpg);">
+	      <div class="slider-item" style="background-image:url(img/solucion.png);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -102,7 +102,7 @@ $url= Ruta::ctrRuta();
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+	      <div class="slider-item" style="background-image:url(img/servicio.png);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -117,7 +117,7 @@ $url= Ruta::ctrRuta();
 	        </div>
 	      </div>
 
-	      <div class="slider-item" style="background-image:url(images/bg_3.jpg);">
+		  <div class="slider-item" style="background-image:url(img/solucion.png);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -140,7 +140,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-			  <img src="<?php echo $url; ?>img/cinco.png" class="imgg">
+            		<img src="img/cinco.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Stock</h3>
@@ -153,7 +153,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-			  <img src="<?php echo $url; ?>img/cuatro.png" class="imgg">
+			  <img src="img/cuatro.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Atención Empática</h3>
@@ -166,7 +166,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-			  <img src="<?php echo $url; ?>img/uno.png" class="imgg">
+			  <img src="img/uno.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading">Servicio Electro-mecánico</h3>
@@ -178,7 +178,7 @@ $url= Ruta::ctrRuta();
           <div class="col-md-3 d-flex services align-self-stretch p-4 py-md-5 ftco-animate">
             <div class="media block-6 d-block text-center pt-md-4">
               <div class="icon d-flex justify-content-center align-items-center">
-			  <img src="<?php echo $url; ?>img/tres.png" class="imgg">
+			  <img src="img/tres.png" class="imgg">
               </div>
               <div class="media-body p-2 mt-3">
                 <h3 class="heading"> Delivery</h3>
@@ -223,7 +223,7 @@ $url= Ruta::ctrRuta();
     			<div class="col-md-12 col-lg-4 services-2 p-4 py-5 d-flex ftco-animate">
     				<div class="py-3 d-flex">
 	    				<div class="icon">
-						<img src="<?php echo $url; ?>img/dos.png" class="img2">
+						<img src="img/dos.png" class="img2">
 	    				</div>
 	    				<div class="text">
 	      				<h3>24/7 Alquiler </h3>
@@ -520,85 +520,33 @@ $url= Ruta::ctrRuta();
           </div>
         </div>
         <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap py-4">
-    <!-- 	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>-->
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-              <!-- 	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>-->
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                <!--	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>-->
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                 <!--	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>-->
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap py-4">
-                  <!--	<div class="icon d-flex align-items-center justify-content-center"><span class="fa fa-quote-left"></span></div>
-                  <div class="text">
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <div class="d-flex align-items-center">
-                    	<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
-                    	<div class="pl-3">
-		                    <p class="name">Roger Scott</p>
-		                    <span class="position">Marketing Manager</span>
-		                  </div>
-	                  </div>
-                  </div>-->
-                </div>
-              </div>
-            </div>
-          </div>
+          <div class="col-md-6">
+ 
+	
+
+						<div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>img/cintacaucho.png);">
+							<a href="<?php echo $url; ?>img/cintacaucho.png" class="icon image-popup d-flex justify-content-center align-items-center">
+										<span class="icon-expand"></span>
+									</a>
+	
+						</div>
+				
+					
+
+
+
+       
+		  </div>
+		  <div class="col-md-6">
+		  <div class="work img d-flex align-items-end" style="background-image: url(<?php echo $url; ?>img/reflector.png);">
+							<a href="<?php echo $url; ?>img/reflector.png" class="icon image-popup d-flex justify-content-center align-items-center">
+										<span class="icon-expand"></span>
+									</a>
+	
+						</div>
+
+
+</div>
         </div>
       </div>
     </section>
